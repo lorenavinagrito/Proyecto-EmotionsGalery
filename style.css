@@ -1,0 +1,22 @@
+.gradient-custom {
+    background: rgb(255,121,251);
+    background: linear-gradient(279deg, rgba(255,121,251,1) 0%, /*rgba(130,209,180,1) 40%,*/ rgba(178,182,255,1) 69%, rgba(112,231,255,1) 100%);
+    
+    }
+    
+.bg-dark{
+    background-color: transparent ! important;
+}
+body{
+     font-family: 'Aclonica', sans-serif;
+}
+    
+#card {
+    border: none ! important;
+}
+
+
+
+
+
+

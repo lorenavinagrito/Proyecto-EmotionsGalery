@@ -1,0 +1,50 @@
+
+    
+.bg-dark{
+    background-color: transparent ! important;
+}
+body{
+     font-family: 'Aclonica', sans-serif;
+     background-image: url(imagene.jpeg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+}
+    
+#card {
+    border: none ! important;
+}
+
+/*body{
+   background-image: url(imagene.jpeg);
+}*/
+
+h2 {
+    font-size: 40px;
+}
+
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    background:#a945c7;
+  
+}
+.btn-neon:hover{
+    background: #a945c7;
+    box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    transition-delay: 0.2s;
+ }
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+
+
+

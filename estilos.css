@@ -1,0 +1,78 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #6a11cb;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
+  }
+  .card{
+    border-radius: 1em;
+  }
+  
+  #imagePost, #userPhoto{
+    max-width: 80%;
+    margin-top: 1em;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  #login{
+    float: left;
+    /*border: none ! important;*/
+  }
+
+  h5{
+    color:white;
+    font-size: 51px;
+    
+  }
+
+/*#michu{
+    background-color: white;
+}
+*/
+
+/*#menu{*/
+  /*background-color: rgb(130, 137, 238);*/
+ /* background-image: url(astetich.png);
+}*/
+
+#userProfile{
+  /*background-image: url(astetich.png);*/
+  position: absolute;
+}
+
+#menu{
+  background-color: #8f6e76;
+}
+
+#imagen{
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+/*#myCarousel{
+  top: 1px;
+  position: fixed;
+}*/
+/*#postList{
+  background-image: url(cielobonito.png);
+}*/
+
+/*siempre al final*/
+/* Medium devices (tablets, 992px and up) */
+@media (max-width: 992px) { 
+  #userProfile{
+    margin-bottom: 15px;
+    position: relative;
+    
+  }
+  #formContent{
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
